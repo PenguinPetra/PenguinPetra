@@ -7,7 +7,7 @@ guess = int(input("")
 tries = 1
 
 while(guess != answer)
-  #　予想が外れている限り、whileの中身を実行する
+#予想が外れている限り、whileの中身を実行する
 　if(guess > answer):
    print("あなたの予想した数は答えより大きいです")
   else:
@@ -15,6 +15,6 @@ while(guess != answer)
 
   tries = tries + 1
   guess = int(input("あなたが予想する数字:"))
-# whileが終了したので予想が当たった
+#whileが終了したので予想が当たった
 print("正解です。答えは1{}".format(answer))
 print("あなたの試行回数は{}でした".format(tries))
